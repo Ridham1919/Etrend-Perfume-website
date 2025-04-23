@@ -224,7 +224,17 @@ li {
 .header-main .navbar .navbar-inner .all-hearder-item>ul>li:hover>.mega-menu-two>li>.mega-item>li:hover>a {
     color: #f96a6e;
 }
-
+@media screen and (max-width:480px){
+    .container{
+        width: 100%;
+        display: block;
+        width: 480px;
+        margin: 0 auto;
+        padding: 0px 15px;
+        box-sizing: border-box;
+    }
+    
+}
 /*------------------------------------------------------ end  header css ------------------------------------------------------ */
 
 
@@ -381,6 +391,7 @@ li {
 .all-category-item {
     display: flex;
     flex-wrap: wrap;
+    margin: 100px;
     margin: 0 -15px;
 }
 
