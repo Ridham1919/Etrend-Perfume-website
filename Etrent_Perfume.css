@@ -376,6 +376,7 @@ li {
 
 .main-category-inner .title strong::after {
     display: block;
+    
     content: "";
     margin: 0 auto;
     width: 15%;
