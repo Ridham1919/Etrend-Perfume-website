@@ -371,7 +371,6 @@ li {
     text-transform: capitalize;
     color: #656565;
 }
-
 .main-category-inner .title strong::after {
     display: block;
     content: "";
